@@ -1,0 +1,102 @@
+.backdated-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.backdated-header {
+  background: white;
+  padding: 16px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backdated-header h2 {
+  color: #2563eb;
+}
+
+
+.export-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.filter-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-group select,
+.filter-group input {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+
+.set-btn {
+  background: #e5e7eb;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.apply-btn {
+  background: #e5e7eb;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.table-card {
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #22c7f5;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+.day-input {
+  width: 95%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}

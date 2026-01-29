@@ -1,0 +1,18 @@
+.mt-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.mt-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mt-sub {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}

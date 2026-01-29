@@ -1,0 +1,96 @@
+.month-page {
+  padding: 20px;
+  margin-left: 240px;
+}
+
+.month-header,
+.quarter-header {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.month-header h2,
+.quarter-header h2 {
+  color: blue;
+}
+
+.quarter-btn,
+.info-btn,
+.save-btn,
+.back-btn {
+  padding: 8px 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.quarter-btn {
+  background: #007bff;
+  color: white;
+}
+
+.info-btn {
+  background: #eee;
+  margin-left: 10px;
+}
+
+.back-btn {
+  background: #444;
+  color: white;
+}
+
+.month-table-box,
+.quarter-table-box {
+  background: white;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #22c1f1;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.quarter-form {
+  background: white;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.q-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.q-row div {
+  display: flex;
+  flex-direction: column;
+}
+
+.q-row input,
+.q-row select {
+  padding: 7px;
+  width: 140px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

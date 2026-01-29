@@ -1,0 +1,59 @@
+.plant-series-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+
+.plant-series-header {
+  background: white;
+  padding: 14px 20px;
+  border-radius: 10px;
+}
+
+.plant-series-header h2 {
+  color: #2563eb;
+}
+
+
+.plant-series-card {
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #22c7f5;
+  color: white;
+}
+
+th,
+td {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+.module-list p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+
+.series-select,
+.plant-select {
+  width: 90%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}

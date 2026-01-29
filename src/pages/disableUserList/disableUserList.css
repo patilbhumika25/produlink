@@ -1,0 +1,67 @@
+.disable-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+
+.disable-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.disable-header h2 {
+  color: #2563eb;
+}
+
+.back-btn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.disable-table-box {
+  background: white;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #22c7f5;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+
+td select {
+  padding: 6px 8px;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+}
+
+
+.enable-btn {
+  background: #2fb344;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}

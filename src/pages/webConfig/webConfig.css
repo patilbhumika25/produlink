@@ -1,0 +1,50 @@
+.webconfig-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.webconfig-header {
+  background: #ffffff;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.webconfig-header h2 {
+  color: #1d4ed8;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.webconfig-table-box {
+  background: white;
+  padding: 0;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.webconfig-table-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.webconfig-table-box th {
+  background: #22c7f5;
+  color: white;
+  padding: 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.webconfig-table-box td {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.webconfig-table-box tr:nth-child(even) {
+  background: #f9fafb;
+}

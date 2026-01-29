@@ -1,0 +1,81 @@
+.prod-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+
+.prod-header {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prod-header h2 {
+  color: #2563eb;
+}
+
+
+.export-btn {
+  background: #e5e7eb;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.user-select-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-select-row select {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+
+.prod-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+
+.prod-box {
+  background: white;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.prod-box h4 {
+  margin-bottom: 10px;
+}
+
+
+.operation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+
+.empty-box {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  color: gray;
+}

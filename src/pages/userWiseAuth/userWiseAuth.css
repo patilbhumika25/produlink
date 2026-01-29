@@ -1,0 +1,84 @@
+.auth-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.auth-header {
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.auth-header h2 {
+  color: #2563eb;
+}
+
+.auth-filter {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+.filter-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.input-box {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+
+.search-btn {
+  background: #e5e7eb;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.auth-table-card {
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #22c7f5;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}

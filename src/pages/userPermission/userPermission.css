@@ -1,0 +1,80 @@
+.permission-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+
+.page-title {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+
+.permission-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+
+.user-select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+
+.btn-group button {
+  padding: 7px 12px;
+  border: none;
+  background: #e5e7eb;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.check-all {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.search-box {
+  width: 60%;
+  margin-top: 15px;
+  padding: 9px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.permission-list {
+  margin-top: 20px;
+}
+
+.permission-list label {
+  display: block;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+
+.assign-box {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.assign-btn {
+  background: #3b82f6;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}

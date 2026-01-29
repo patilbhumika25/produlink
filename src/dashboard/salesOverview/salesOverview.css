@@ -1,0 +1,12 @@
+.so-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.so-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

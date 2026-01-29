@@ -1,0 +1,57 @@
+.user-client-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+
+.user-client-header {
+  background: white;
+  padding: 14px 20px;
+  border-radius: 10px;
+}
+
+.user-client-header h2 {
+  color: #2563eb;
+}
+
+
+.user-client-table-card {
+  margin-top: 20px;
+  background: white;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #22c7f5;
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+.plant-name {
+  color: #111827;
+  font-weight: 500;
+}
+
+
+.value-select {
+  width: 90%;
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}

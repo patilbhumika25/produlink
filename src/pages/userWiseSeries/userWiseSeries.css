@@ -1,0 +1,99 @@
+.series-page {
+  margin-left: 240px;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+
+.series-header {
+  background: white;
+  padding: 16px 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.series-header h2 {
+  color: #2563eb;
+}
+
+
+.export-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.series-filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-item select {
+  padding: 7px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.days-input {
+  width: 80px;
+  padding: 7px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.set-btn {
+  background: #1e5fbf;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+.series-table-card {
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #e5e7eb;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+.table-input {
+  width: 95%;
+  padding: 7px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}

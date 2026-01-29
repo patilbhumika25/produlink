@@ -1,0 +1,266 @@
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: #0f172a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.sidebar-logo {
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.sidebar-menu li {
+  padding: 12px 20px;
+}
+
+.sidebar-menu li a {
+  color: #cbd5e1;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+
+
+.sidebar-menu li:hover {
+  background: #1e293b;
+}
+
+
+.sidebar-menu li a.active {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+
+.menu-item {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cbd5e1;
+}
+
+.menu-item:hover {
+  background: #1e293b;
+}
+
+
+.submenu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.submenu li {
+  padding: 10px 30px;
+  background: #0b1220;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+
+.submenu li:hover {
+  background: #06b6d4;
+}
+
+.submenu li:hover a {
+  color: white;
+}
+
+
+.menu-item {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cbd5e1;
+}
+
+.menu-item:hover {
+  background: #1e293b;
+}
+
+
+.submenu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.submenu li {
+  padding: 10px 30px;
+  background: #0b1220;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-size: 14px;
+  display: block;
+}
+
+.submenu li:hover {
+  background: #06b6d4;
+}
+
+.submenu li:hover a {
+  color: white;
+}
+
+
+.submenu-parent {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: #0b1220;
+}
+
+.submenu-title {
+  display: flex;
+  justify-content: space-between;
+  color: #cbd5e1;
+}
+
+.submenu-parent:hover {
+  background: #1e293b;
+}
+
+
+.nested-submenu {
+  list-style: none;
+}
+
+.nested-submenu li {
+  padding: 8px 45px;
+  background: #102030;
+}
+
+.nested-submenu li a {
+  color: #cbd5e1;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nested-submenu li:hover {
+  background: #22c7f5;
+}
+
+.nested-submenu li:hover a {
+  color: white;
+}
+
+.menu-item {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: space-between;
+  color: #cbd5e1;
+}
+
+.menu-item:hover {
+  background: #1e293b;
+}
+
+.submenu {
+  list-style: none;
+  padding-left: 0;
+}
+
+.submenu li {
+  padding: 10px 30px;
+  background: #0b1220;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: #cbd5e1;
+  display: block;
+}
+
+.submenu li:hover {
+  background: #06b6d4;
+}
+
+.submenu li:hover a {
+  color: white;
+}
+
+.submenu-parent {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: #0b1220;
+}
+
+.submenu-title {
+  display: flex;
+  justify-content: space-between;
+  color: #cbd5e1;
+}
+
+.submenu-parent:hover {
+  background: #1e293b;
+}
+
+.nested-submenu li {
+  padding: 8px 45px;
+  background: #102030;
+}
+
+.nested-submenu li a {
+  font-size: 13px;
+}
+
+.nested-submenu li:hover {
+  background: #22c7f5;
+}
+
+.nested-submenu li:hover a {
+  color: white;
+}
+
+.menu-btn {
+  z-index: 3000;
+  position: relative;
+  color: white
+}
+
+.toggle-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  outline: none;
+}
+
+.toggle-btn:hover {
+  color: #38bdf8;
+}
+
